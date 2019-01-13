@@ -29,11 +29,14 @@
             ],
             "styles": [
               {
-                "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+                "input": "./src/thema.scss"
               },
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/swiper/dist/css/swiper.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/swiper/dist/js/swiper.js" 
+            ]
           },
           "configurations": {
             "production": {
@@ -83,11 +86,14 @@
             "karmaConfig": "src/karma.conf.js",
             "styles": [
               {
-                "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+                "input": "./src/thema.scss" 
               },
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/swiper/dist/css/swiper.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/swiper/dist/js/swiper.js" 
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets",
